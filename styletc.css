@@ -1195,6 +1195,145 @@ div.art-block img
 
 
 
+/* ĐĂNG NHẬP , TẠO TK*/   
+/* Container tổng */
+.form-section {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+/* Tiêu đề */
+.form-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+/* Input fields */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.login-box input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Nút đăng nhập */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #CCC;
+}
+
+/* Tùy chọn đăng nhập */
+.row-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.row-options a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.row-options a:hover {
+  text-decoration: underline;
+}
+
+/* Chữ "hoặc đăng nhập qua" */
+.or-login {
+  text-align: center;
+  margin: 20px 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Các nút mạng xã hội */
+.social-login button {
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: 8px auto;
+   display: block;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.social-login .facebook {
+  background-color: #3b5998;
+}
+
+.social-login .google {
+  background-color: #db4437;
+}
+
+.social-login button:hover {
+  opacity: 0.9;
+}
+
+/* Nút tạo tài khoản */
+.form-section button {
+  padding: 12px 24px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.form-section button:hover {
+  background-color:#999;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 /* art paper*/
